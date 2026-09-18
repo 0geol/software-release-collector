@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "product": "VLC media player",
+  "slug": "vlc-media-player",
+  "edition": "desktop",
+  "channel": "stable",
+  "version": "3.0.23",
+  "installer_build": "3.0.23",
+  "release_date": "2026-01-08",
+  "release_page_url": "https://www.videolan.org/vlc/releases/3.0.23.html",
+  "changelog_url": "https://code.videolan.org/videolan/vlc/-/raw/3.0.23/NEWS",
+  "checked_at": "2026-09-11T23:40:32+09:00",
+  "artifact_policy": "metadata-only",
+  "packages": [
+    {
+      "platform": "macos",
+      "architecture": "arm64",
+      "format": "dmg",
+      "filename": "vlc-3.0.23-arm64.dmg",
+      "size_bytes": 51273389,
+      "download_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/macosx/vlc-3.0.23-arm64.dmg",
+      "signature_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/macosx/vlc-3.0.23-arm64.dmg.asc",
+      "checksum_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/macosx/vlc-3.0.23-arm64.dmg.sha256",
+      "status": "URL confirmed"
+    },
+    {
+      "platform": "macos",
+      "architecture": "intel64",
+      "format": "dmg",
+      "filename": "vlc-3.0.23-intel64.dmg",
+      "size_bytes": 57544217,
+      "download_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/macosx/vlc-3.0.23-intel64.dmg",
+      "signature_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/macosx/vlc-3.0.23-intel64.dmg.asc",
+      "checksum_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/macosx/vlc-3.0.23-intel64.dmg.sha256",
+      "status": "URL confirmed"
+    },
+    {
+      "platform": "macos",
+      "architecture": "universal",
+      "format": "dmg",
+      "filename": "vlc-3.0.23-universal.dmg",
+      "size_bytes": 89124160,
+      "download_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/macosx/vlc-3.0.23-universal.dmg",
+      "signature_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/macosx/vlc-3.0.23-universal.dmg.asc",
+      "checksum_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/macosx/vlc-3.0.23-universal.dmg.sha256",
+      "status": "URL confirmed"
+    },
+    {
+      "platform": "windows",
+      "architecture": "arm64",
+      "format": "7z",
+      "filename": "vlc-3.0.23-winarm64.7z",
+      "size_bytes": 33946002,
+      "download_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/winarm64/vlc-3.0.23-winarm64.7z",
+      "signature_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/winarm64/vlc-3.0.23-winarm64.7z.asc",
+      "checksum_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/winarm64/vlc-3.0.23-winarm64.7z.sha256",
+      "status": "URL confirmed"
+    },
+    {
+      "platform": "windows",
+      "architecture": "arm64",
+      "format": "exe",
+      "filename": "vlc-3.0.23-winarm64.exe",
+      "size_bytes": 38696352,
+      "download_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/winarm64/vlc-3.0.23-winarm64.exe",
+      "signature_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/winarm64/vlc-3.0.23-winarm64.exe.asc",
+      "checksum_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/winarm64/vlc-3.0.23-winarm64.exe.sha256",
+      "status": "URL confirmed"
+    },
+    {
+      "platform": "windows",
+      "architecture": "arm64",
+      "format": "msi",
+      "filename": "vlc-3.0.23-winarm64.msi",
+      "size_bytes": 51630080,
+      "download_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/winarm64/vlc-3.0.23-winarm64.msi",
+      "signature_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/winarm64/vlc-3.0.23-winarm64.msi.asc",
+      "checksum_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/winarm64/vlc-3.0.23-winarm64.msi.sha256",
+      "status": "URL confirmed"
+    },
+    {
+      "platform": "windows",
+      "architecture": "arm64",
+      "format": "zip",
+      "filename": "vlc-3.0.23-winarm64.zip",
+      "size_bytes": 71151376,
+      "download_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/winarm64/vlc-3.0.23-winarm64.zip",
+      "signature_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/winarm64/vlc-3.0.23-winarm64.zip.asc",
+      "checksum_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/winarm64/vlc-3.0.23-winarm64.zip.sha256",
+      "status": "URL confirmed"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "format": "7z",
+      "filename": "vlc-3.0.23-win64.7z",
+      "size_bytes": 39583707,
+      "download_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.7z",
+      "signature_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.7z.asc",
+      "checksum_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.7z.sha256",
+      "status": "URL confirmed"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "format": "exe",
+      "filename": "vlc-3.0.23-win64.exe",
+      "size_bytes": 45948080,
+      "download_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.exe",
+      "signature_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.exe.asc",
+      "checksum_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.exe.sha256",
+      "status": "URL confirmed"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "format": "msi",
+      "filename": "vlc-3.0.23-win64.msi",
+      "size_bytes": 60608512,
+      "download_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.msi",
+      "signature_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.msi.asc",
+      "checksum_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.msi.sha256",
+      "status": "URL confirmed"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x64",
+      "format": "zip",
+      "filename": "vlc-3.0.23-win64.zip",
+      "size_bytes": 79893405,
+      "download_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.zip",
+      "signature_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.zip.asc",
+      "checksum_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.zip.sha256",
+      "status": "URL confirmed"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x86",
+      "format": "7z",
+      "filename": "vlc-3.0.23-win32.7z",
+      "size_bytes": 38035144,
+      "download_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win32/vlc-3.0.23-win32.7z",
+      "signature_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win32/vlc-3.0.23-win32.7z.asc",
+      "checksum_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win32/vlc-3.0.23-win32.7z.sha256",
+      "status": "URL confirmed"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x86",
+      "format": "exe",
+      "filename": "vlc-3.0.23-win32.exe",
+      "size_bytes": 44568024,
+      "download_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win32/vlc-3.0.23-win32.exe",
+      "signature_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win32/vlc-3.0.23-win32.exe.asc",
+      "checksum_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win32/vlc-3.0.23-win32.exe.sha256",
+      "status": "URL confirmed"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x86",
+      "format": "msi",
+      "filename": "vlc-3.0.23-win32.msi",
+      "size_bytes": 58912768,
+      "download_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win32/vlc-3.0.23-win32.msi",
+      "signature_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win32/vlc-3.0.23-win32.msi.asc",
+      "checksum_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win32/vlc-3.0.23-win32.msi.sha256",
+      "status": "URL confirmed"
+    },
+    {
+      "platform": "windows",
+      "architecture": "x86",
+      "format": "zip",
+      "filename": "vlc-3.0.23-win32.zip",
+      "size_bytes": 78125237,
+      "download_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win32/vlc-3.0.23-win32.zip",
+      "signature_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win32/vlc-3.0.23-win32.zip.asc",
+      "checksum_url": "https://download.videolan.org/pub/videolan/vlc/3.0.23/win32/vlc-3.0.23-win32.zip.sha256",
+      "status": "URL confirmed"
+    }
+  ]
+}

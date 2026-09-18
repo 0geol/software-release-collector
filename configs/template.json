@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "product": "제품 표시 이름",
+  "slug": "product-slug",
+  "edition": "desktop",
+  "channel": "stable",
+  "version_source": {
+    "url": "https://vendor.example/official-download",
+    "regex": "Stable version (?P<version>\\d+\\.\\d+\\.\\d+)"
+  },
+  "release_date_source": {
+    "url": "https://vendor.example/official-news",
+    "regex": "(?P<date>20\\d{2}-\\d{2}-\\d{2}).{0,500}{version}"
+  },
+  "release_page_url": "https://vendor.example/releases/{version}",
+  "changelog_url": "https://vendor.example/releases/{version}/notes",
+  "artifact_sources": [
+    {
+      "url": "https://vendor.example/downloads/{version}/",
+      "platform": "windows",
+      "architecture": "x64",
+      "filename_regex": "^product-{version}-x64\\.(?:exe|msi)$",
+      "exclude_regex": "debug|symbols|beta|rc",
+      "signature_suffix": ".asc",
+      "checksum_suffix": ".sha256"
+    }
+  ]
+}

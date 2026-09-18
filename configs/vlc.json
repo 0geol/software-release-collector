@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "product": "VLC media player",
+  "slug": "vlc-media-player",
+  "edition": "desktop",
+  "channel": "stable",
+  "version_source": {
+    "url": "https://www.videolan.org/vlc/",
+    "regex": "/vlc/(?P<version>\\d+\\.\\d+\\.\\d+)/(?:win32|win64|winarm64|macosx)/"
+  },
+  "release_date_source": {
+    "url": "https://www.videolan.org/news.html",
+    "regex": "VLC[^0-9]{0,20}{version}[\\s\\S]{0,300}(?P<date>20\\d{2}-\\d{2}-\\d{2})"
+  },
+  "release_page_url": "https://www.videolan.org/vlc/releases/{version}.html",
+  "changelog_url": "https://code.videolan.org/videolan/vlc/-/raw/{version}/NEWS",
+  "artifact_sources": [
+    {
+      "url": "https://download.videolan.org/pub/videolan/vlc/{version}/win32/",
+      "platform": "windows",
+      "architecture": "x86",
+      "filename_regex": "^vlc-{version}-win32\\.(?:exe|msi|zip|7z)$",
+      "exclude_regex": "debug|symbols",
+      "signature_suffix": ".asc",
+      "checksum_suffix": ".sha256"
+    },
+    {
+      "url": "https://download.videolan.org/pub/videolan/vlc/{version}/win64/",
+      "platform": "windows",
+      "architecture": "x64",
+      "filename_regex": "^vlc-{version}-win64\\.(?:exe|msi|zip|7z)$",
+      "exclude_regex": "debug|symbols",
+      "signature_suffix": ".asc",
+      "checksum_suffix": ".sha256"
+    },
+    {
+      "url": "https://download.videolan.org/pub/videolan/vlc/{version}/winarm64/",
+      "platform": "windows",
+      "architecture": "arm64",
+      "filename_regex": "^vlc-{version}-winarm64\\.(?:exe|msi|zip|7z)$",
+      "exclude_regex": "debug|symbols",
+      "signature_suffix": ".asc",
+      "checksum_suffix": ".sha256"
+    },
+    {
+      "url": "https://download.videolan.org/pub/videolan/vlc/{version}/macosx/",
+      "platform": "macos",
+      "architecture": "intel64",
+      "filename_regex": "^vlc-{version}-intel64\\.dmg$",
+      "signature_suffix": ".asc",
+      "checksum_suffix": ".sha256"
+    },
+    {
+      "url": "https://download.videolan.org/pub/videolan/vlc/{version}/macosx/",
+      "platform": "macos",
+      "architecture": "arm64",
+      "filename_regex": "^vlc-{version}-arm64\\.dmg$",
+      "signature_suffix": ".asc",
+      "checksum_suffix": ".sha256"
+    },
+    {
+      "url": "https://download.videolan.org/pub/videolan/vlc/{version}/macosx/",
+      "platform": "macos",
+      "architecture": "universal",
+      "filename_regex": "^vlc-{version}-universal\\.dmg$",
+      "signature_suffix": ".asc",
+      "checksum_suffix": ".sha256"
+    }
+  ]
+}
